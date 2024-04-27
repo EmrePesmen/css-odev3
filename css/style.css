@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    font-size: 13px;
+    background-color: #F2F2F2;
+}
+
+/* Header Kısmı */
+
+.header{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.header a{
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.google-apps{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+}
+
+.header .google-apps:hover{
+    background-color:#D0D4CA;
+    border-radius: 20px;
+}
+
+.header a,img{
+    margin: 15px;
+}
+
+.header input{
+    width: 130px;
+    height: 35px;
+    background-color: #0B60B0;
+    color: #F2F2F2 ;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.header input:hover{
+    box-shadow: 15px 15px 15px 15px #0C359E inset;
+}
+
+/* Container Kısmı */
+
+.container{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 65px;
+}
+
+.logo{
+    width: 272px;
+    height: 92px;
+    position: absolute;
+    top: 30px;
+}
+
+.arama-kutusu{
+    width: 580px;
+    height: 45px;
+    border: 1px solid #D0D4CA;
+    border-radius: 240px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 160px;
+}
+
+.arama-kutusu input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 280px;
+    height: 45px;
+    size: 40px;
+}
+
+.arama-kutusu:hover{
+    box-shadow: 1px 1px 1px 1px #D0D4CA;
+}
+
+.butonlar{
+    width: 335px;
+    height: 40px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 210px;
+}
+
+.btn1{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #3C4043;
+    font-size: 14px;
+    font-family: Arial;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.btn2{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #3C4043;
+    font-size: 14px;
+    font-family: Arial;
+    border-radius: 4px;
+}
+
+.btn1:hover{
+    border: 1px solid #D0D4CA;
+}
+
+.btn2:hover{
+    border: 1px solid #D0D4CA;
+}
+
+/* Footer Kısmı */
+
+.footer{
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+}
+
+.country-name{
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: Arial;
+    color: #3C4043;
+}
+
+.footer-baseline{
+    width: 30%;
+    height: 45px;
+    float: left;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-center{
+    width: 50%;
+    height: 45px;
+    float: left;
+}
+
+.footer-end{
+    width: 20%;
+    height: 45px;
+    float: left;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-baseline a{
+    font-size: 14px;
+    font-family: Arial;
+    color: #3C4043;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.footer-center a{
+    font-size: 14px;
+    font-family: Arial;
+    color: #3C4043;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 120px;
+}
+
+.footer-center img,a{
+    margin-right: 5px;
+}
+
+.footer-end a{
+    font-size: 14px;
+    font-family: Arial;
+    color: #3C4043;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.footer-baseline a:hover{
+    text-decoration: underline;
+}
+
+.footer-center a:hover{
+    text-decoration: underline;
+}
+
+.footer-end a:hover{
+    text-decoration: underline;
+}
